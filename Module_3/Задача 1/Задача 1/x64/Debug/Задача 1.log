@@ -1,7 +1,0 @@
-﻿  ArcGraph.cpp
-  MatrixGraph.cpp
-  SetGraph.cpp
-C:\Users\Egor\Desktop\АиСД\Модуль 3\Задача 1\Задача 1\SetGraph.cpp(33,28): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
-  main.cpp
-  Создание кода...
-  Задача 1.vcxproj -> C:\Users\Egor\Desktop\АиСД\Модуль 3\Задача 1\x64\Debug\Задача 1.exe
