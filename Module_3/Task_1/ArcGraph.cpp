@@ -22,8 +22,8 @@ ArcGraph::~ArcGraph()
 
 void ArcGraph::AddEdge(int from, int to)
 {
-	assert(0 <= from && from < adjacency_pairs.size());
-	assert(0 <= to && to < adjacency_pairs.size());
+	assert(0 <= from && from < VerticesCount());
+	assert(0 <= to && to < VerticesCount());
 	adjacency_pairs.push_back({ from, to });
 }
 
