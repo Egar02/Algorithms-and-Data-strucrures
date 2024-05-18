@@ -1,0 +1,43 @@
+﻿  4_2.cpp
+C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(498,29): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(318,32): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(318,32):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(375,15):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "AVLTree<int,NodeComparator<T>>"
+          with
+          [
+              T=int
+          ]
+  	C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(316,6):
+  	во время компиляции функции-члена класс шаблон "int AVLTree<int,NodeComparator<T>>::GetBalance(Node<T> *)"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(349,3):
+  		см. первую ссылку на "AVLTree<int,NodeComparator<T>>::GetBalance" в "AVLTree<int,NodeComparator<T>>::DoBalance"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(196,4):
+  		см. первую ссылку на "AVLTree<int,NodeComparator<T>>::DoBalance" в "AVLTree<int,NodeComparator<T>>::DeleteInternal"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(87,8):
+  		см. первую ссылку на "AVLTree<int,NodeComparator<T>>::DeleteInternal" в "AVLTree<int,NodeComparator<T>>::Delete"
+          with
+          [
+              T=int
+          ]
+  		C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\Задача 4_2\4_2.cpp(387,15):
+  		см. первую ссылку на "AVLTree<int,NodeComparator<T>>::Delete" в "Test0_1"
+          with
+          [
+              T=int
+          ]
+  
+  Задача 4_2.vcxproj -> C:\Users\Egor\Desktop\АиСД\Модуль 2\Задача 4_2\x64\Debug\Задача 4_2.exe
